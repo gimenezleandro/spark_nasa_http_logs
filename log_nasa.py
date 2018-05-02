@@ -103,6 +103,6 @@ if __name__ == '__main__':
   print("")
   print("")
  
-  #spark.stop()
+  spark.stop()
 
 
