@@ -2,7 +2,7 @@
 
 if [ -z $1 ]
 	then
-		echo "Primeiro argumento: indique a quantidade de threads"
+		echo "Primeiro argumento: indique a quantidade de workers"
 		exit 1
 fi
 if [ -z $2 ]
