@@ -23,7 +23,7 @@ Premissa: A variável de ambiente $SPARK_HOME deve estar configurada
 A aplicação log_nasa.py será executada através do script spark_submit.sh, para que a ação seja bem sucedida é preciso informar 3 parâmetros:
 
         1. Número de workers (cores)
-        2. Caminho e nome do script log_nada.py
+        2. Caminho e nome do script log_nasa.py
         3. Caminho de onde estão os arquivos de log a serem analisados
 
 Ex: ./spark_submit.sh 2 /pyspark/log_nasa.py /pyspark/filelogs/
